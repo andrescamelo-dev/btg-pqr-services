@@ -1,0 +1,10 @@
+server:
+  port: ${PORT:80}
+  servlet:
+    contextPath: /btg-service
+
+spring:
+  data:
+    mongodb:
+      uri: ${MONGODB_URL:mongodb+srv://btg_user:ukSlInBG8Dn35JCj@cluster0.wgwtk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority}
+
